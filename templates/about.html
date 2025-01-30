@@ -1,7 +1,38 @@
 {% extends "base.html" %}
+{% load static %}  <!-- Load static files at the top -->
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
 
 {% block title %}About{% endblock title %}
 
 {% block body %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
 
+<section class="about-us">
+    <h1>Welcome to Joshi's Ice-Cream! 🍦</h1>
+    <p>At Joshi's Ice-Cream, we believe in more than just delicious treats – we are dedicated to creating moments of joy, one scoop at a time. Founded with a passion for bringing happiness through creamy, flavorful ice cream, we have been delighting customers with our high-quality, handmade creations since day one.</p>
+    
+    <h2>Our Story</h2>
+    <p>Joshi's Ice-Cream started as a small, family-owned shop with a simple mission: to make the best ice cream using only the finest ingredients. What began as a dream to share our love for sweets with the local community quickly grew into a beloved brand known for its rich flavors, unique creations, and commitment to quality.</p>
+    <p>We believe that ice cream is more than just a dessert—it's a way to bring people together, to celebrate life’s sweetest moments, and to indulge in a little bit of happiness. Whether you're grabbing a cone on a hot summer day or enjoying a sundae with friends, Joshi's Ice-Cream is here to add a little sweetness to your life.</p>
+
+    <h2>Our Ice Cream</h2>
+    <p>At Joshi's Ice-Cream, we take pride in offering a wide range of flavors that cater to every taste. From classic favorites like chocolate and vanilla to exciting, seasonal creations, our ice cream is made from scratch using only the finest natural ingredients. We use fresh dairy, locally sourced fruits, and premium chocolate to create creamy, dreamy ice cream that you won’t find anywhere else.</p>
+    <p>We also offer dairy-free, gluten-free, and vegan options so that everyone can enjoy the goodness of Joshi's Ice-Cream.</p>
+
+    <h2>Our Values</h2>
+    <ul>
+        <li><strong>Quality:</strong> We use only the finest, locally-sourced ingredients in every batch of our ice cream.</li>
+        <li><strong>Passion:</strong> We are passionate about making every scoop of ice cream a moment of joy and delight.</li>
+        <li><strong>Community:</strong> As a family-run business, we are committed to serving our community and making a positive impact through every scoop.</li>
+    </ul>
+
+    <h2>Join Us!</h2>
+    <p>Whether you're visiting us for the first time or you're a regular, we’re here to share a scoop (or two) of happiness with you. Come by, grab a cone, and experience the magic of Joshi's Ice-Cream!</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Joshi's Ice-Cream. All rights reserved.</p>
+</footer>
 {% endblock body %}
